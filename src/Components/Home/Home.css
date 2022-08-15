@@ -1,0 +1,16 @@
+.home{
+    background-color: var(--body-color);
+}
+
+.hero-text{
+    font-size: var(--font-size-bggr);
+    font-weight: 900;
+    color: var(--white-color);
+    font-family: var( --bdy-font-family-alt3);
+}
+.hero-description{
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    color: var(--white-color-2);
+    font-family: var( --bdy-font-family-alt3);
+}

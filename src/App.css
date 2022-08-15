@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Kanit:wght@400;500;600;700;800;900&family=Lobster&family=Merriweather:wght@400;700;900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+:root{
+    --bg-color-1:linear-gradient( 180deg, #000000, rgb(17, 17, 17));
+    --bg-color-2:linear-gradient(180deg, #000000,#111, #434343);
+    --bg-color-3:linear-gradient( 60deg, #000000,#111, #434343);
+    --body-color:#121212;
+    --skin-color:#f19333;  
+    --skin-color2:#405791;
+    --skin-color3:#4c6769;
+    --skin-color4:#acbfca;
+    --white-color:#fff;
+    --white-color-2:rgba(184, 182, 203, 0.75);
+    --black-color:rgb(8, 7, 18);
+    --black-color-2:#000;
+    --white-color3: #d9d9d9;
+    --circle-color: #fff;
+   
+    --box-shadow:0 .25rem .75rem rgba(0, 0, 0, 0.448);
+
+    --font-medium: 500;
+    --font-semibold:600;
+    --font-bold:800;
+
+    --bdy-font-family: 'Poppins', sans-serif ;
+    --bdy-font-family-alt: 'Kanit', sans-serif;
+    --bdy-font-family-alt4: 'Merriweather', serif;
+    --bdy-font-family-alt2: 'Space Grotesk', sans-serif;
+    --bdy-font-family-alt3: 'nunito', sans-serif;
+    --bdy-font-family-alt5: 'lobster', cursive;
+
+    
+    
+    --font-size-bggr:3.15rem;
+    --font-size-bg: 2.25rem;
+    --font-size-m: 1.5rem;
+    --font-size-nr: 1rem;
+    --font-size-sm: .95em;
+    --font-size-smlr: .85rem;
+    --h1-size: 1.75rem;
+    --h2-size: 1.5rem;
+    --h3-size: 1.25rem;
+    --header-height: 3.5rem;
+ }
+
+ body{
+     font-size: var(--font-size-nr);
+     font-family: var(--bdy-font-family);
+     background:var(--bg-color-1) ;
+     color: var(--white-color);
+     transition: all .3s ease;
+     text-transform: capitalize;
+    
+ }
+ body.light{
+    --bg-color-1:linear-gradient(to bottom, #536976, #757f9a);
+    --bg-color-2:linear-gradient(to left, #536976, #2c3e50);
+    --bg-color-3:linear-gradient(to bottom, #536976, #2c3e50);
+    --body-color:#666e83;
+    --skin-color:#97a5b4; 
+    --skin-color2:#bcbec4;
+    --white-color:rgb(14, 19, 55);
+    --white-color-2:rgb(19, 23, 65);
+    --black-color:#fff;
+    --black-color-2:#fff;
+    --white-color3: rgba(1, 4, 26, 0.903);
+    --skin-color4:rgb(255, 132, 0);
+    --box-shadow:0 .25rem .75rem rgba(0, 0, 0, 0.448);
+
+ }
+ *{
+     margin: 0;
+     padding: 0;
+     text-decoration: none;
+     box-sizing: border-box;
+     font-size: 14px;
+     outline: none;
+     
+ }
+ ::before, ::after
+ {
+     box-sizing: border-box;
+ }
+html{
+    scroll-behavior: smooth;
+   
+}
+
+ul{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    color: var(--white-color);
+}
+input,button{
+  font-family: var(--bdy-font-family);
+  outline: none;
+  border: none;
+}
+
+
+/*-----scroll-bar------*/
+::-webkit-scrollbar{
+    width:.5rem;
+    background-color:var(--body-color);
+}
+::-webkit-scrollbar-thumb{
+    background-color:var(--skin-color2);
+    border-radius: .5rem;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: var(--skin-color);
+}
+/*-----*scroll-bar-----*/
+
+/*-----Reuseable----*/
+.section{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+}
+.main-container{
+    width: 100%;
+    height: 100%;
+    background: var(--bg-color-1);
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+.grid{
+    display: grid;
+}
+.flex{
+    display: flex;
+}
+.btn{
+    background: var(--skin-color);
+    border: 1px solid var(--black-color);
+    color: var(--white-color);
+    font-family: var(--bdy-font-family-alt2);
+    font-weight: 500;
+}
+.btn:hover{
+    background: transparent;
+    border: 1px solid var(--skin-color);
+}
+
+
+@media (min-width:960px){
+    *{
+        font-size: 16px;
+    }
+}

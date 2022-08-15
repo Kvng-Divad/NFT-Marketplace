@@ -1,0 +1,26 @@
+.nav{
+    background: transparent;
+}
+.links{
+    background: var(--bg-color-2);
+    display: none;
+}
+.links ul {
+    gap: 3rem;
+    transition: .4s ease-in-out;
+}
+.links ul li a:hover{
+   color: var(--skin-color);
+}
+.links ul li a.active{
+    color: var(--skin-color);
+ }
+.brand{
+    width: 5rem;
+}
+@media (min-width:960px){
+    .links{
+        background: var(--bg-color-2);
+        display: flex;
+    }
+}
