@@ -8,13 +8,13 @@
     --skin-color:#f19333;  
     --skin-color2:#405791;
     --skin-color3:#4c6769;
-    --skin-color4:#405791;
+    --skin-color4:#084dfe;
     --white-color:#fff;
     --white-color-2:rgba(184, 182, 203, 0.75);
     --black-color:rgb(8, 7, 18);
     --black-color-2:#000;
     --white-color3: #d9d9d9;
-    --circle-color: #fff;
+    --card-color: linear-gradient(80deg, #121212, #f19333);
    
     --box-shadow:0 .25rem .75rem rgba(0, 0, 0, 0.448);
 
@@ -32,7 +32,7 @@
     
     
     --font-size-bggr:3.15rem;
-    --font-size-bg: 2.25rem;
+    --font-size-bg: 2.5rem;
     --font-size-m: 1.5rem;
     --font-size-nr: 1rem;
     --font-size-sm: .95em;

@@ -68,10 +68,10 @@ const Section = styled.section`
     margin: 3rem 0;
     .title{
       h2{
-        font-size:var(--h2-size);
+        font-size:var(--h1-size);
         padding: 1rem;
         font-Weight:900;
-        text-transform:uppercase;
+        text-transform:capitalize;
         font-family:var(--bdy-font-family-alt2);
       }
     }
@@ -128,7 +128,7 @@ const Section = styled.section`
       }
       .title{
         h2{
-          font-size:var(--h1-size);
+          font-size:var(--font-size-bg);
         }
       }
       .content{
