@@ -1,5 +1,6 @@
 .home{
     background-color: var(--body-color);
+    box-shadow: var(--box-shadow);
 }
 
 .hero-text{
@@ -14,3 +15,9 @@
     color: var(--white-color-2);
     font-family: var( --bdy-font-family-alt3);
 }
+.data{
+    margin: .75rem 0;
+    grid-template-columns: repeat(3, max-content);
+    gap: 1rem;
+}
+

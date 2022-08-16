@@ -21,7 +21,7 @@ const Btn = styled.button`
 
     button {
         border-radius: 50px;
-        padding: .5rem 1rem;
+        padding: .7rem 1rem;
         :not(.btn){
           background: transparent;
           border: 1px solid var(--skin-color);

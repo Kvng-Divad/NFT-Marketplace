@@ -9,6 +9,10 @@
     gap: 3rem;
     transition: .4s ease-in-out;
 }
+.links ul li a{
+    font-family: var(--bdy-font-family);
+    font-weight: 600;
+}
 .links ul li a:hover{
    color: var(--skin-color);
 }
@@ -20,7 +24,6 @@
 }
 @media (min-width:960px){
     .links{
-        background: var(--bg-color-2);
         display: flex;
     }
 }

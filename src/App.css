@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap');
 :root{
     --bg-color-1:linear-gradient( 180deg, #000000, rgb(17, 17, 17));
-    --bg-color-2:linear-gradient(180deg, #000000,#111, #434343);
-    --bg-color-3:linear-gradient( 60deg, #000000,#111, #434343);
+    --bg-color-2:linear-gradient(180deg, #000000,#222);
+    --bg-color-3:linear-gradient( 80deg, #222,#444);
     --body-color:#121212;
     --skin-color:#f19333;  
     --skin-color2:#405791;
     --skin-color3:#4c6769;
-    --skin-color4:#acbfca;
+    --skin-color4:#405791;
     --white-color:#fff;
     --white-color-2:rgba(184, 182, 203, 0.75);
     --black-color:rgb(8, 7, 18);
@@ -132,6 +132,12 @@ input,button{
     margin: auto;
     overflow-x: hidden;
 }
+.container{
+    width: 100%;
+    height: 100%;
+    max-width: 1040px;
+    margin: auto;
+}
 
 .grid{
     display: grid;
@@ -141,7 +147,7 @@ input,button{
 }
 .btn{
     background: var(--skin-color);
-    border: 1px solid var(--black-color);
+    border: 1px solid var(--skin-color);
     color: var(--white-color);
     font-family: var(--bdy-font-family-alt2);
     font-weight: 500;
